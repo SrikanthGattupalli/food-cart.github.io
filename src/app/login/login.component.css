@@ -1,0 +1,103 @@
+.container{
+   
+    width: 420px;
+    height: 500px;
+    border: solid 2px  #023020 ;
+    border-radius: 10px;
+    background-color: white;
+    /* animation-name: moveLeft;
+    animation-duration: 2s; */
+
+}
+
+
+
+.heading{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    color:  #023020;
+}
+
+.loginDiv{
+    display: flex;
+    justify-content: center;
+
+}
+
+.btn-primary{
+    width:70px;
+    margin-top: 30px;
+    background-color: #28b485;
+    border: #023020;
+  
+}
+
+.btn-primary:hover{
+    background-color: white;
+    color: #023020;
+    border: #023020 1px solid;
+}
+
+form{
+    margin-top: 20px;
+    
+}
+
+.signUp{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.errorMessage{
+    color: red;
+}
+
+body {
+    
+}
+
+.container-main{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    background-image:linear-gradient(to right bottom ,
+    rgba(126,213,111,0.8),
+    rgba(40,180,131,0.8) ) ,
+    url('https://img.freepik.com/premium-photo/assorted-indian-recipes-food-various_79295-7226.jpg?w=1060');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+
+}
+
+input{
+    width: 350px;
+    border: black 1px solid;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+/* 
+@keyframes moveLeft{
+    0%{
+        opacity:0;
+        transform: translate(-300px);
+    }
+    80%{
+        opacity:0;
+        transform: translate(-100px);
+    }
+
+    100%{
+        opacity:1;
+        transform: translate(0px);
+    }
+} */
+
+

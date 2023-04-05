@@ -1,0 +1,200 @@
+mat-sidenav{
+    height: 100%;
+    width: 300px;
+
+}
+mat-sidenav-container{
+    height: 100%;
+}
+
+/* .gap{
+    margin-right: 1350px;
+} */
+
+.headingContainer{
+    width: 300px;
+    height: 47px;
+    display: flex;
+    justify-content:space-around;
+  
+}
+
+.welcomePadding{
+    margin-top: 12px;
+}
+
+.sideNavButtons{
+    margin: 10px;
+    width:300px;
+    height:40px;
+}
+
+.input-group{
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 20px;
+    width:600px;
+}
+
+.form-control{
+    height: 35px;
+}
+
+.btn-outline-secondary{
+    height: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.siteName{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+
+.d-inline-flex{
+    margin: 0px;
+}
+
+.loginButton{
+    /* margin-top: 10px; */
+    margin-left: 10px;
+}
+.notificationButton{
+    margin-top: 6px;
+    margin-left: 10px;
+}
+
+.shoppingCartButton{
+    margin-top: 6px;
+    margin-left: 10px;
+}
+
+
+ .spacer {
+    flex: 1 1 auto;
+}
+
+
+.foodIcon{
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.breakfastContainer{
+    width:100%;
+    height:320px;
+    border: solid black 1px;
+}
+
+.breakFastSection{
+    width:100%;
+    height: 300px;
+    border: solid black 1px;
+}
+
+.carousel-control-prev{
+    color: aqua;
+}
+
+#button-addon2{
+    background: white;
+    border: 1px solid white;
+    color: #28b485;
+    
+}
+
+#button-addon2:hover{
+    color: white;
+    background: #28b485 ;
+
+}
+
+mat-sidenav-content::-webkit-scrollbar {
+    width: 8px;  
+              /* width of the entire scrollbar */
+}
+  
+mat-sidenav-content::-webkit-scrollbar-track {
+    background:white;        /* color of the tracking area */
+}
+  
+mat-sidenav-content::-webkit-scrollbar-thumb {
+    background-color: white;    /* color of the scroll thumb */
+    border-radius: 10px;       /* roundness of the scroll thumb */
+    border: 2px solid  white;  /* creates padding around scroll thumb */
+}
+
+.toolBar{
+    background-color: #28b485;
+}
+
+.btn-light{
+    background-color: #28b485;
+    color: black;
+    border: #28b485;
+
+}
+
+
+.form-control{
+    border: 1px  solid white;
+    
+    
+}
+
+input:focus {
+    outline: none;
+}
+
+/* .backgroundColour{
+   
+    background-color:#C0EC83 ;
+    /* background: linear-gradient(to right bottom ,
+    rgba(126,213,111,0.8) ) ; */
+
+
+    /* background-image: url('https://as1.ftcdn.net/v2/jpg/05/49/92/72/1000_F_549927228_WP1L1Mt1fid2kKSX1JMKJZOTEYCdI6VK.jpg'); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+
+
+/* } */ 
+
+.filter{
+   margin-left: 20px;
+   margin-top: 20px;
+   color: black;
+    
+} 
+
+.selectFilter{
+   color:#28b485
+   /* width: 250px;
+   height: 100px;
+   border: #28b485 1px solid; */
+   
+} 
+
+.filterContainer{
+    display: flex;
+    justify-content: flex-start;
+   
+    width: 100%;
+    height: 100px;
+}
+
+mat-select::-webkit-scrollbar {
+    width: 8px;  
+              /* width of the entire scrollbar */
+}
+  
+mat-select::-webkit-scrollbar-track {
+    background:white;        /* color of the tracking area */
+}
+  
+mat-select::-webkit-scrollbar-thumb {
+    background-color: white;    /* color of the scroll thumb */
+    border-radius: 10px;       /* roundness of the scroll thumb */
+    border: 2px solid  white;  /* creates padding around scroll thumb */
+}
